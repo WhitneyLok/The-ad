@@ -1,0 +1,87 @@
+#chat-window {
+    position:relative;
+    left:300px;
+    display: block;
+    height: 600px;
+    border: 10px double black;
+    width:900px;
+    background-image:url("https://media.tenor.com/images/24520b4497153abb91ca769fe4a7f23f/tenor.gif");
+    background-size:100%;
+    
+}
+body{
+        background-image:url("http://oi68.tinypic.com/s6u3a1.jpg");
+}
+
+.message {
+    margin: 5px;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.message.received {
+    background-color: #ff8080;
+    text-align: left;
+}
+.message.sent {
+    background-color: #007acc;
+   text-align: right;
+}
+
+.message.received:before {
+    content: "Survey Guy - ";
+    font-weight: bold;
+}
+
+.message.sent:after {
+    content: " - You";
+    font-weight: bold;
+}
+
+.messengers {
+ display: flex;
+ margin-top: 10px;
+ padding: 10px;
+}
+
+.senders {
+ margin: 20px;   
+}
+
+.message-input {
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    font-size: 20px;
+}
+.btn{
+    width:100%;
+}
+.btn2, .btn3{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+
+#send-your-message,#send-your-message2 {
+ background-color: #80ced6;   
+}
+.sender-title {
+    font-weight: bold;
+    font-family: Arial;
+}
+.math, .scam{
+    position:absolute;
+}
+.lol{
+    width:300px;
+    position :absolute;
+    padding-top:500px;
+}
+.alert{
+    position:absolute;
+    width:300px;
+    right:450px;
+}
